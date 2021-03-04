@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  anaconda:
+    container_name: geospatial-anaconda
+    build:
+      context: .
+    restart: unless-stopped
+    ports:
+      - 8888:8888
+    volumes:
+      - ./jupiter-notebooks:/opt/notebooks
