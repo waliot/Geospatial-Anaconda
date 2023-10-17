@@ -35,3 +35,5 @@ Build & Run with `docker-compose`:
 $ docker-compose build
 $ docker-compose up -d
 ```
+
+![jupyter](./assets/jupyter.png)
